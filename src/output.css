@@ -667,6 +667,18 @@ video {
   grid-template-columns: 500px 1fr;
 }
 
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-\[300px_1fr\] {
+  grid-template-columns: 300px 1fr;
+}
+
+.grid-cols-\[600px_1fr\] {
+  grid-template-columns: 600px 1fr;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -901,6 +913,10 @@ video {
 
 .text-\[51px\] {
   font-size: 51px;
+}
+
+.text-\[19\.2px\] {
+  font-size: 19.2px;
 }
 
 .font-bold {
